@@ -38,9 +38,9 @@
 		var x = e.clientX;
 		var y = e.clientY;
 
-		createFireworks(x, y,["许婷","我爱你","永远"][Math.floor(Math.random()*3)]);
+		createFireworks(x, y,["哈哈","嘿嘿","娃哈哈"][Math.floor(Math.random()*3)]);
 	}
-	document.addEventListener("mousedown", mouseDownHandler);
+	document.addEventListener("click", mouseDownHandler);
 
 	var particles = [];
 
